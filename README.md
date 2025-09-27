@@ -1,0 +1,29 @@
+# Personal Website
+
+This is my personal website where I showcase my portfolio and blog about web development.
+
+## Links
+
+- [My Portfolio](https://myportfolio.com)
+- [UI/UX Design Resources](https://www.figma.com/design/kIrYaD803wkAqBgETOAPOj/Untitled?node-id=0-1&t=LGcp7uUDeOmxpy1i-1)
+
+## Social Media
+
+- [GitHub](https://github.com/mhd-ftn)
+- [LinkedIn](https://www.linkedin.com/in/muhammad-fathin-686407382/)
+- etc...
+
+## Pages
+
+- Home
+- About
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Preview
+
+- ![Website Preview](/assets/Screenshot%202025-05-03%20154031.png)
