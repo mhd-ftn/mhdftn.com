@@ -9,9 +9,9 @@ This is my personal website where I showcase my portfolio and blog about web dev
 
 ## Social Media
 
-- [GitHub](https://github.com/mhd-ftn)
+- [GitHub](https://github.com)
 - [LinkedIn](https://www.linkedin.com/in/muhammad-fathin-686407382/)
-- etc...
+- [Instagram](https://www.instagram.com/mhd.ftn?igsh=MTJ6eGJnY2VvN3BlbQ==)
 
 ## Pages
 
