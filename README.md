@@ -28,4 +28,4 @@ This is my personal website where I showcase my portfolio and blog about web dev
 
 ## Preview
 
-- ![Website Preview](/assets/PFP.png)
+![Website Preview](/assets/PFP.png)
