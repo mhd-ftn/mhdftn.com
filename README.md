@@ -8,7 +8,7 @@ This is my personal website where I showcase my portfolio and blog about web dev
 - [Figma Design](https://www.figma.com/design/kIrYaD803wkAqBgETOAPOj/Untitled?node-id=0-1&t=LGcp7uUDeOmxpy1i-1)
 - [Blog Pribadi](https://www.blogger.com/blog/posts/6757370479543192752?pli=1)
 
-## 📱Social Media
+## 🎧Social Media
 
 - [GitHub](https://github.com)
 - [LinkedIn](https://www.linkedin.com/in/muhammad-fathin-686407382/)
