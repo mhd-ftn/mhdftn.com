@@ -1,0 +1,214 @@
+/* ==== Global ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(circle at top left, #2b1b4d, #0f0f1a);
+  color: #fff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ==== Header ==== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+  background: rgba(20, 10, 40, 0.5);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #b19fff;
+  font-weight: 700;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: 0.3s;
+  padding: 8px 14px;
+  border-radius: 20px;
+}
+
+nav a:hover,
+nav a:focus {
+  background: rgba(150, 100, 255, 0.2);
+  color: #b19fff;
+}
+
+/* ==== Home Section ==== */
+#home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 140px 80px 80px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #14082f 0%, #0c0c18 100%);
+}
+
+#home img {
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(173, 110, 255, 0.6);
+  margin-left: 300px;
+  max-width: 420px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  #home {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  #home img {
+    margin: 40px 0 0;
+    max-width: 300px;
+  }
+}
+
+#home div {
+  flex: 1;
+}
+
+#home h2 {
+  font-size: 2rem;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+#home p {
+  max-width: 500px;
+  font-size: 1rem;
+  color: #dcdcdc;
+}
+
+/* Sosmed Icons */
+#home div a img {
+  margin: 15px 8px 0 0;
+  transition: transform 0.3s;
+  filter: drop-shadow(0 0 5px rgba(150, 100, 255, 0.7));
+}
+
+#home div a img:hover {
+  transform: scale(1.2);
+}
+
+/* ==== Softskills ==== */
+#softskills {
+  padding: 100px 80px;
+  background: #141028;
+}
+
+#softskills h2 {
+  text-align: center;
+  color: #b19fff;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+#softskills div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+#softskills div div {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(150, 100, 255, 0.2);
+  transition: 0.3s;
+}
+
+#softskills div div:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(150, 100, 255, 0.4);
+}
+
+#softskills img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+#softskills p {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+/* ==== Service Section ==== */
+#service {
+  padding: 100px 80px;
+  background: linear-gradient(180deg, #0c0c18 0%, #1a1035 100%);
+  text-align: center;
+}
+
+#service img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+#service h2 {
+  font-size: 2rem;
+  color: #b19fff;
+}
+
+#service h3 {
+  color: #ccc;
+  margin-bottom: 50px;
+}
+
+#service div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+#service div div {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 30px;
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(120, 80, 255, 0.15);
+}
+
+#service div div:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(150, 100, 255, 0.4);
+}
+
+#service div div img {
+  margin-bottom: 15px;
+  filter: drop-shadow(0 0 5px rgba(150, 100, 255, 0.6));
+}
+
+#service h4 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* ==== Footer ==== */
+footer {
+  background: #0f0a1a;
+  text-align: center;
+  padding: 20px;
+  color: #999;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
